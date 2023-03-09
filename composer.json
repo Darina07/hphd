@@ -1,0 +1,13 @@
+{
+    "name": "darina07/my-api",
+    "description": "A PHP API package",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApi\\": "src/"
+        }
+    }
+}
